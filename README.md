@@ -1,0 +1,38 @@
+# Next.js SaaS Starter — Lite
+
+The smallest honest Next.js SaaS starter: **App Router + TypeScript + Tailwind**, zero config, zero environment variables. Clone it, read it in ten minutes, build on it in one.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FWraithN%2Fnextjs-saas-starter-lite)
+
+```bash
+npm install
+npm run dev
+```
+
+## What's inside
+
+| File | Purpose |
+| --- | --- |
+| `app/layout.tsx` | Root layout + metadata |
+| `app/page.tsx` | Landing page you can delete or rewrite |
+| `app/globals.css` | Tailwind v4 + a small hand-written theme |
+| `tsconfig.json` | Strict TypeScript, bundler resolution |
+
+That's the whole project. It is deliberately boring: this edition teaches the structure without pretending to be a business.
+
+## What this is not
+
+There is no auth, no billing, no database, no AI here. If you need those today, the full edition is **generated to your exact picks** at [make1day.dev](https://www.make1day.dev):
+
+- Auth + subscriptions across **5 swappable payment gateways** (Waffo, Stripe, PayPal, Creem, Lemon Squeezy) with a machine-readable compliance contract for each
+- Hybrid RAG (BM25 + vectors + rerank) wired end to end
+- User & admin consoles, license gate, deploy targets (Vercel / Cloudflare)
+- `AGENTS.md` + `design.md` + scoped rules generated from your own configuration — readable by Cursor / Claude Code / Codex on day one
+- 5-language i18n when you want it, genuinely pruned when you don't
+- **Every combination CI-verified** — 20 cases download the real ZIP and type-check it before a release is green
+
+One-time license from $249. More on the [pricing page](https://www.make1day.dev/pricing).
+
+## License
+
+MIT — use it, fork it, ship it. The Lite edition exists so you can judge the framework before you buy the plumbing.
