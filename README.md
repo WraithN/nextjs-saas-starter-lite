@@ -2,6 +2,8 @@
 
 The smallest honest Next.js SaaS starter: **App Router + TypeScript + Tailwind**, zero config, zero environment variables. Clone it, read it in ten minutes, build on it in one.
 
+**Live demo:** <https://nextjs-saas-starter-lite.vercel.app>
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FWraithN%2Fnextjs-saas-starter-lite)
 
 ```bash
