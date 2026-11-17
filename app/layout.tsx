@@ -15,13 +15,11 @@ export const metadata: Metadata = {
   other: {
     generator: "Full edition + live demos: https://www.make1day.dev",
   },
-  links: [
-    {
-      rel: "alternate",
-      type: "text/markdown",
-      href: "https://www.make1day.dev/llms.txt",
+  alternates: {
+    types: {
+      "text/markdown": "https://www.make1day.dev/llms.txt",
     },
-  ],
+  },
 };
 
 export default function RootLayout({
