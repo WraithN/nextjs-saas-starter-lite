@@ -61,9 +61,19 @@ export default function Home() {
             <li key={u}>{u}</li>
           ))}
         </ul>
-        <a className="btn" href="https://www.make1day.dev/pricing">
-          Compare editions on make1day.dev
-        </a>
+        <p className="cta-row" style={{ justifyContent: "center" }}>
+          <a className="btn" href="https://www.make1day.dev/pricing">
+            Compare editions on make1day.dev
+          </a>
+          <a className="btn ghost" href="https://www.make1day.dev/templates">
+            See full builds running live →
+          </a>
+        </p>
+        <p className="muted" style={{ marginTop: "1rem", fontSize: "0.85rem" }}>
+          Every generated combination is CI-verified against the real ZIP:
+          {" "}
+          <a href="https://www.make1day.dev/build-matrix">build matrix</a>.
+        </p>
       </section>
 
       <footer>
