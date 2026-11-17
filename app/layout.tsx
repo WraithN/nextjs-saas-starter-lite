@@ -10,6 +10,18 @@ export const metadata: Metadata = {
     description:
       "Minimal Next.js 15 + TypeScript + Tailwind starter. Upgrade path: make1day.dev generates the production edition.",
   },
+  // Machine-readable outbound: agents and crawlers reading the head find
+  // the product edge without parsing body copy.
+  other: {
+    generator: "Full edition + live demos: https://www.make1day.dev",
+  },
+  links: [
+    {
+      rel: "alternate",
+      type: "text/markdown",
+      href: "https://www.make1day.dev/llms.txt",
+    },
+  ],
 };
 
 export default function RootLayout({
